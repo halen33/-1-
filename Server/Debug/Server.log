@@ -1,0 +1,29 @@
+﻿生成启动时间为 2019/6/29 星期六 下午 14:54:52。
+     1>项目“E:\VC++ 网络对战五子棋游戏(服务端+用户端)\Server\Server.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS_14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\Server.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ServerDlg.cpp
+         ServerDlg.cpp
+     1>e:\vc++ 网络对战五子棋游戏(服务端+用户端)\server\packdef.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“STRU_DESK_RS”的左侧
+     1>e:\vc++ 网络对战五子棋游戏(服务端+用户端)\server\serverdlg.cpp(416): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+     1>e:\vc++ 网络对战五子棋游戏(服务端+用户端)\server\serverdlg.cpp(468): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+     1>e:\vc++ 网络对战五子棋游戏(服务端+用户端)\server\serverdlg.cpp(570): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+     1>e:\vc++ 网络对战五子棋游戏(服务端+用户端)\server\serverdlg.cpp(684): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1868): note: 参见“inet_ntoa”的声明
+       Link:
+         E:\VS_14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Server.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:E:\VS_14.0\VC\Include\Manifest\dpiaware.manifest /Debug /PDB:".\Debug\Server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Server.lib" /MACHINE:X86 /SAFESEH .\Debug\Server.res
+         .\Debug\ClientSocket.obj
+         .\Debug\Desk.obj
+         .\Debug\Server.obj
+         .\Debug\ServerAddrDlg.obj
+         .\Debug\ServerDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\UserInfo.obj
+         Server.vcxproj -> E:\VC++ 网络对战五子棋游戏(服务端+用户端)\Server\.\Debug\Server.exe
+     1>已完成生成项目“E:\VC++ 网络对战五子棋游戏(服务端+用户端)\Server\Server.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:22.68
